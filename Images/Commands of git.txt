@@ -1,0 +1,40 @@
+mkdir wad
+cd wad
+code mrunal.txt
+git init
+git remote add origin "url of git repository"
+git add mrunal.txt
+git status
+git commit -m "First Commit"
+git status
+git push -u origin master
+
+code mansi.txt
+git status
+git add mansi.txt
+git status
+git commit -m "second commit"
+git status
+git push -u origin master
+
+
+git branch sayali(branchname)
+git log --oneline --decorate
+git checkout sayali
+git status
+code srushti.txt
+git status
+git add srushti.txt
+git status
+git commit -m "thirdc"
+git log
+git push -u origin sayali
+git status
+git log
+git checkout
+git checkout master
+git merge sayali
+git status
+git log
+git push -u origin master
+git branch -D sayali
