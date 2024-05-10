@@ -2,6 +2,8 @@ mkdir wad
 cd wad
 code mrunal.txt
 git init
+git config --global user.name "username"
+git config --global user.email "emailid"
 git remote add origin "url of git repository"
 git add mrunal.txt
 git status
